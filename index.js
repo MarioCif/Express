@@ -22,10 +22,6 @@ app.get('/motos', (req, res) => {
     res.send("Lista de motos")
 });
 
-app.update('motos', (req, res) => {
-    
-})
-
 
 app.listen(3000, () => {
     console.log("hola");
